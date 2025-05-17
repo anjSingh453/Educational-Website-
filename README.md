@@ -35,7 +35,7 @@ EduPulse is a full-featured, responsive, and interactive educational web app des
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/edupulse.git
+git clone https://github.com/anjSingh453/Educational-Website-.git
 cd edupulse
 
 # Install dependencies
