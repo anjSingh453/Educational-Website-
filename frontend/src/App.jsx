@@ -1,6 +1,7 @@
-import './App.css'
+ 
+import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";  
 
 import Dashboard from "./pages/Dashboard";
 import FlashcardViewer from "./components/FlashcardViewer";
@@ -21,28 +22,25 @@ import TimerPage from './components/PomodoroTimer';
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/dashboard" element={<Dashboard />} />
 
-        {/* Routes for each feature page */}
-        <Route path="/flashcards" element={<FlashcardViewer />} />
-        <Route path="/quiz" element={<QuizApp />} />
-        <Route path="/habits" element={<DailyHabitChecklist />} />
-        <Route path="/courses" element={<CourseCatalog />} />
-        <Route path="/reading-log" element={<ReadingLog />} />
-        <Route path="/notes" element={<MarkdownEditor />} />
-        <Route path="/adaptive-quiz" element={<AdaptiveQuiz />} />
-        <Route path="/video-player" element={<InteractiveVideoPlayer />} />
-        <Route path="/lesson-tracker" element={<LessonTracker />} />
-        <Route path="/spaced-repetition" element={<SpacedRepetition />} />
-         <Route path="/timer" element={<TimerPage />} />
-        <Route path="/achievements" element={<AchievementsPage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
+      <Route path="/flashcards" element={<FlashcardViewer />} />
+      <Route path="/quiz" element={<QuizApp />} />
+      <Route path="/habits" element={<DailyHabitChecklist />} />
+      <Route path="/courses" element={<CourseCatalog />} />
+      <Route path="/reading-log" element={<ReadingLog />} />
+      <Route path="/notes" element={<MarkdownEditor />} />
+      <Route path="/adaptive-quiz" element={<AdaptiveQuiz />} />
+      <Route path="/video-player" element={<InteractiveVideoPlayer />} />
+      <Route path="/lesson-tracker" element={<LessonTracker />} />
+      <Route path="/spaced-repetition" element={<SpacedRepetition />} />
+      <Route path="/timer" element={<TimerPage />} />
+      <Route path="/achievements" element={<AchievementsPage />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
   );
 };
 
