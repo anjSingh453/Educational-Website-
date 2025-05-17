@@ -1,8 +1,7 @@
 # 🎓 EduPulse - Your Personalized Learning Companion
 
-EduPulse is a full-featured, responsive, and interactive educational web app designed to boost productivity and improve learning outcomes through engaging tools like flashcards, adaptive quizzes, spaced repetition, a Pomodoro timer, and more — all built using **React**, **Tailwind CSS**, and **Material UI**.
-
-![Demo Screenshot](./screenshot.png)
+EduPulse is a full-featured, responsive, and interactive educational web app designed to boost productivity and improve learning outcomes through engaging tools like flashcards, adaptive quizzes, spaced repetition, a Pomodoro timer, and more .
+ 
 
 ## 🚀 Features
 
@@ -28,7 +27,7 @@ EduPulse is a full-featured, responsive, and interactive educational web app des
 - **Charts:** Chart.js via react-chartjs-2
 - **Routing:** React Router DOM
 - **Animations:** Framer Motion, Tailwind Transitions
-- **Icons:** Heroicons, Lucide
+
 
 ---
 
@@ -36,7 +35,7 @@ EduPulse is a full-featured, responsive, and interactive educational web app des
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/edupulse.git
+git clone  https://github.com/anjSingh453/Educational-Website-.git
 cd edupulse
 
 # Install dependencies
